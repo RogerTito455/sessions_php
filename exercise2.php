@@ -10,7 +10,7 @@ if (!isset($_SESSION['inventory'])) {
 
 // Inicializar trabajador
 if (!isset($_SESSION['worker'])) {
-    $_SESSION['worker'] = "";
+    // $_SESSION['worker'] = "";
 }
 
 //Guardar nombre trabajador que usuario coloque
